@@ -1,0 +1,261 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Section Navbar---------------- */
+.navbarContainer {
+    border-radius: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.184);
+    opacity: 1;
+    display: flex;
+    font-weight: 1000;
+    justify-content: space-between;
+    align-items: center;
+    width: 85rem;
+    margin: 15px auto 50px auto;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    list-style: none;
+}
+
+#navbar ul a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul a:hover {
+    color: #ff845b;
+    transition: 0.4s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.logo h2 {
+
+    font-size: 1.5rem;
+}
+
+.logo h2 span {
+    color: #ff845b;
+}
+
+.contact {
+    padding: 0px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23rem;
+}
+
+.contactlogo:hover {
+    color: #ff845b;
+    cursor: pointer;
+}
+
+.homeNavbtn {
+    font-size: 1.08rem;
+    margin: 0px 5px;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 17px;
+    background-color: #ff845b;
+}
+
+.homeNavbtn:hover {
+    background-color: grey;
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+hr {
+    width: 70rem;
+    color: #ff845b;
+    border: 2px solid #ff845b;
+    background-color: #ff845b;
+}
+
+/* ------------------------------------------------- */
+
+
+
+.homeContent {
+    margin: 130px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeContent::before {
+    content: '';
+    background: url('homebg.webp') no-repeat center center/cover;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.homeContent h1 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.homePara {
+    background-color: #ff845b;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 80rem;
+    height: 35rem;
+    margin: 10px auto 0px auto;
+    box-shadow: 5px 0px 20px black;
+}
+
+#homeParacontent2 {
+    color: black;
+    align-self: flex-end;
+}
+
+.homeParacontent {
+    padding: 20px;
+}
+
+.resultimg img {
+    width: 450px;
+    height: 300px;
+    margin: -20px auto 0px 120px;
+}
+
+.ideaimg img {
+    width: 550px;
+    height: 400px;
+    margin: 0px auto -100px -10px;
+}
+
+/* --------------------------------------------- */
+
+.moreHeadings{
+    text-align: center;
+    font-size: 4rem;
+}
+.moreaboutusF{
+    align-items: center;
+    display: flex;
+}
+.moreaboutusFimg img{
+    margin: 3px;
+    width: 700px;
+    height: 400px;
+}
+
+/* ========================== */
+
+
+.ourservices {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    font-size: 1.1rem;
+
+}
+.ourservices::before{
+    left: 0px;
+    content: '';
+    background: url('ourservicesbg2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+
+#ourservicesleft {
+    box-shadow: 2px 0px 5px black;
+    background-color: #ffad99;
+    width: 20%;
+    /* flex-grow: 1; */
+}
+#ourservicesleft nav ul li{
+    cursor: pointer;
+    text-decoration: underline;
+    margin: 0px 0px 13px 0px;
+    
+}
+
+#ourservicesmid {
+    width: 50%;
+    /* flex-grow: 4; */
+}
+#ourservicesmid img{
+    width: 95%;
+    height: 70vh;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#ourservicesright {
+    box-shadow: 0px 5px 5px black;
+    background-color: #ffad99;
+    width: 30%;
+    height : 34rem;
+    /* flex-grow: 1; */
+}
+
+
+
+
+.images{
+    text-align: center;
+}
+
+.imagesdiv img{
+    margin: 4px;
+    width: 700px;
+    height: 50vh;
+}
+.imagesdiv img:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+}
+.images2 img{
+    margin: 4px;
+    width: 700px;
+    height: 50vh;
+}
+.images2 img:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+}

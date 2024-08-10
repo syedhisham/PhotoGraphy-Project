@@ -1,0 +1,187 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Section Navbar---------------- */
+.navbarContainer {
+    border-radius: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.184);
+    opacity: 1;
+    display: flex;
+    font-weight: 1000;
+    justify-content: space-between;
+    align-items: center;
+    width: 85rem;
+    margin: 15px auto 50px auto;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    list-style: none;
+}
+
+#navbar ul a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul a:hover {
+    color: #ff845b;
+    transition: 0.4s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    color: white;
+    width: 80px;
+    height: 80px;
+}
+
+.logo h2 {
+
+    font-size: 1.5rem;
+}
+
+.logo h2 span {
+    color: #ff845b;
+}
+
+.contact {
+    padding: 0px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23rem;
+}
+
+.contactlogo:hover {
+    color: #ff845b;
+    cursor: pointer;
+}
+
+.homeNavbtn {
+    font-size: 1.08rem;
+    margin: 0px 5px;
+    border: none;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 17px;
+    background-color: #ff845b;
+}
+
+.homeNavbtn:hover {
+    background-color: grey;
+    transition: 0.4s;
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+hr {
+    width: 70rem;
+    color: #ff845b;
+    border: 2px solid #ff845b;
+    background-color: #ff845b;
+}
+
+
+
+
+/* ================================================= */
+
+/* About Page-------------------- */
+#aboutHeading{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 10px auto;
+}
+
+.box{
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    margin: 3px;
+}
+.box:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    box-shadow:-2px -2px 2px 2px  #ff845b;
+}
+.box svg{
+    width: 4rem;
+    height: 4rem;
+    padding: 10px;
+}
+
+/* ================================================== */
+
+
+
+/* Section about Content---------------- */
+
+
+.aboutContents{
+    width: 100%;
+}
+.aboutContent{
+    display: flex;
+    margin: 100px 200px 60px 200px;
+}
+.aboutImg img{
+    width: 500px;
+    height: 50vh;
+}
+.aboutpara{
+    padding: 0px 0px 0px 15px;
+}
+.aboutpara h1{
+    font-size: 2rem;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+
+/* More about us---------------- */
+
+#moreAboutusHeading{
+    text-align: center;
+}
+
+.moreAboutus{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 60px 0px;
+    background-color: #ff845b;
+}
+
+.moreAboutusImage img{
+    width: 700px;
+    height: 50vh;
+    margin-bottom: -3px;
+}
+.moreAboutusContent{
+    margin: 10px 10px 10px 100px;
+    padding: 5px;
+}
+
+
+
